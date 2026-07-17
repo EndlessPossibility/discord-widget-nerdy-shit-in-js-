@@ -60,7 +60,7 @@ var DataType = /*#__PURE__*/ function(DataType) {
 }({});
 // ⚠️ Set your own Cloudflare Worker URL below.
 // Using someone else's will give them your bot token!
-var WORKER_URL = 'https://nameless-cloud-ea13.stanis-guillaume.workers.dev/';
+var WORKER_URL = 'https://nameless-cloud-ea13.yourname.workers.dev/';
 if (!WORKER_URL) {
     alert('Set your WORKER_URL at the top of appIdentity.ts in the main.js file before using the snippet.');
 }
